@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CESAE Viagens</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body class="bg-light">
+    <!-- Navbar separada do header devido ao sticy-top -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top"> 
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-airplane me-1"></i> CESAE Viagens
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Destinos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Nacionais</a></li>
+                            <li><a class="dropdown-item" href="#">Internacionais</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#planos">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">Perguntas</a>
+                    </li>
+                </ul>
+                <a href="#proposta" class="btn btn-warning fw-bold text-dark">Reservar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container py-4">
+            <h1 class="display-4 fw-bold mb-3">Descubra o mundo com a CESAE Viagens</h1>
+            <p class="lead text-secondary mb-4">Viagens à medida, com apoio em português do primeiro ao último dia.</p>
+            <div class="d-flex justify-content-center gap-2">
+                <a href="#planos" class="btn btn-warning fw-bold px-4 py-2">Ver planos</a>
+                <a href="#destinos" class="btn btn-outline-light px-4 py-2">Ver destinos</a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+        <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4"> 
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3"><i class="bi bi-airplane me-1"></i> CESAE Viagens</h6>
+                    <p class="text-secondary small">Viagens à medida desde 2010.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Ligações</h6>
+                    <ul class="list-unstyled text-secondary small">
+                        <li class="mb-1"><a href="#planos" class="text-secondary text-decoration-none">Planos</a></li>
+                        <li class="mb-1"><a href="#faq" class="text-secondary text-decoration-none">Perguntas frequentes</a></li>
+                        <li class="mb-1"><a href="#proposta" class="text-secondary text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <form class="mb-3">
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i class="bi bi-envelope"></i></span>
+                            <input type="email" class="form-control border-start-0 ps-0" placeholder="O seu email">
+                            <button class="btn btn-warning fw-bold text-dark" type="button">Subscrever</button>
+                        </div>
+                    </form>
+                    <div class="d-flex gap-3 fs-5 text-white">
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center text-secondary small">
+                © 2026 CESAE Viagens
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
