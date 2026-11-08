@@ -11,6 +11,7 @@
 
 </head>
 <body class="bg-light">
+
     <!-- Navbar separada do header devido ao sticy-top -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top"> 
         <div class="container">
@@ -46,6 +47,7 @@
         </div>
     </nav>
 
+
     <!-- header -->
     <header class="bg-dark text-white text-center py-5">
         <div class="container py-4">
@@ -57,8 +59,86 @@
             </div>
         </div>
     </header>
+    
+    <!-- Porquê a CESAE Viagens? -->
+    <section class="py-5 bg-white">
+        <div class="container text-center py-3">
+            <h2 class="mb-5 fw-bold">Porquê a CESAE Viagens?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary-subtle text-primary rounded-circle mb-3 p-3" style="width: 60px; height: 60px;">
+                        <i class="bi bi-geo-alt fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Destinos à medida</h5>
+                    <p class="text-secondary small">Escolhemos o roteiro consigo, do primeiro café ao último pôr do sol.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary-subtle text-primary rounded-circle mb-3 p-3" style="width: 60px; height: 60px;">
+                        <i class="bi bi-shield-check fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Viaja em segurança</h5>
+                    <p class="text-secondary small">Seguro incluído e apoio 24 horas, em português, onde quer que esteja.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary-subtle text-primary rounded-circle mb-3 p-3" style="width: 60px; height: 60px;">
+                        <i class="bi bi-calendar-check fs-3"></i>
+                    </div>
+                    <h5 class="fw-bold">Datas flexíveis</h5>
+                    <p class="text-secondary small">Altera a data da viagem até 15 dias antes, sem custos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+
+
+
+    <!-- Form -->
+    <section id="proposta" class="py-5 bg-light">
+        <div class="container py-3">
+            <h2 class="text-center fw-bold mb-4">Peça uma proposta</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form>
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label small">Nome</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label small">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                        </div>
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <label for="destino" class="form-label small">Destino</label>
+                                <select class="form-select" id="destino">
+                                    <option selected>Lisboa</option>
+                                    <option value="1">Porto</option>
+                                    <option value="2">Algarve</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="pessoas" class="form-label small">Número de pessoas</label>
+                                <input type="number" class="form-control" id="pessoas" value="2">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label small">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="aceito">
+                            <label class="form-check-label small" for="aceito">Aceito ser contactado(a) com a proposta</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar pedido</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
         <!-- Footer -->
